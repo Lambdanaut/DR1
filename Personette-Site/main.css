@@ -1,0 +1,96 @@
+@font-face {
+	font-family: visitor1;
+	src: url('fonts/visitor1.ttf');
+}
+body {
+	font-family: visitor1, Arial, sans-serif;
+	background-image: url("images/bground.png");
+}
+#header-bar {
+	position: absolute;
+	top:6px;right:0px;bottom:0px;left:0px;
+	height: 50px;
+	border-top: 6px solid #666666;
+	border-bottom: 6px solid #666666;
+	background: #000000;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+#header-content {
+	position: absolute;
+	top:25px;right:0px;left:0px;
+	height: 20px;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:29px;
+	text-shadow: 0px 2px 2px #000;
+
+}
+#header-content a {
+	text-decoration:none;
+	color:white;
+}
+.person {
+	vertical-align:text-bottom;
+	margin: 0px 3px 0px 2px;
+}
+#nav-bar {
+	position:absolute;
+	top:72px;left:0px;
+	width:100%;
+	height:20px;
+	border-top: 2px solid #666666;
+	border-bottom: 2px solid #666666;
+	background: #000000;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+#nav-content {
+	position:absolute;
+	top:76px;left:0px;
+	width:100%;
+	height:20px;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:18px;
+	text-shadow: 0px 2px 2px #000;
+}
+#nav-content a {
+	color:#FFFFFF;
+}
+.container {
+	background-image: url('images/personico.png');
+	background-repeat:no-repeat;
+	background-position: 99% 10px; 
+	background-color: #FFFFFF;
+	padding: 15px;
+	margin-bottom: 10px;
+	border: solid 2px;
+	box-shadow: 0px 0px 10px 2px #000000;
+}
+#body {
+	float:center;
+	font-family: Ubuntu,Arial,sans-serif;
+	margin: 110px 0px 10px 0px;
+}
+body h1 {
+	margin-top:5px;
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+}
+#content {
+	font-size:16px;
+	margin: 0px 3% 5px 3%;
+}
+#footer {
+	float:center;
+	font-family: Arial, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	text-align:center;
+	margin: 0px 3% 5px 3%;
+}

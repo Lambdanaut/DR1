@@ -1,0 +1,55 @@
+<?php
+$moodform = str_replace(array("\n","\r","\r\n","\n\r"),"","<select name='journalMood'>
+		<option value='n'></option>
+		<option value='Happy'>Happy</option>
+		<option value='Sad'>Sad</option>
+		<option value='Epic'>Epic</option>
+		<option value='Silly'>Silly</option>
+		<option value='Artistic'>Artistic</option>
+		<option value='Autistic'>Autistic</option>
+		<option value='Kickass'>Kickass</option>
+		<option value='Shitpoop'>Shitpoop</option>
+		<option value='RAGE'>RAGE</option>
+		<option value='Depressed'>Depressed</option>
+		<option value='Horny'>Horny</option>
+		<option value='Loved'>Loved</option>
+		<option value='Hurt'>Hurt</option>
+		<option value='Schadenfreude'>Schadenfreude</option>
+		<option value='Troll Everything'>Troll Everything</option>
+		<option value='Embarrassed'>Embarrassed</option>
+		<option value='Starving'>Starving</option>
+		<option value='Like a sock'>Like a sock</option>
+		<option value='Creative'>Creative</option>
+		<option value='Stinky'>Stinky</option>
+		<option value='FTW'>FTW</option>
+		<option value='Friendless'>Friendless</option>
+		<option value='Friendful'>Friendful</option>
+		<option value='Cannibalistic'>Cannibalistic</option>
+		<option value='Exhausted'>Exhausted</option>
+		<option value='Emo'>Emo</option>
+		<option value='Workaholic'>Workaholic</option>
+		<option value='Stoned'>Stoned</option>
+		<option value='Opiated'>Opiated</option>
+		<option value='Confused'>Confused</option>
+		<option value='Sick'>Sick</option>
+		<option value='Lethargic'>Lethargic</option>
+		<option value='Amused'>Amused</option>
+		<option value='Dildos'>Dildos</option>
+		<option value='Whimsical'>Whimsical</option>
+		<option value='Flatulent'>Flatulent</option>
+		<option value='Revolutionary'>Revolutionary</option>
+		<option value='Dark and Edgy'>Dark and Edgy</option>
+		<option value='The Game'>The Game</option>
+		<option value='Poisoned'>Poisoned</option>
+		<option value='Petrified'>Petrified</option>
+		<option value='Zombie'>Zombie</option>
+		<option value='Berserk'>Berserk</option>
+		<option value='Paralyzed'>Paralyzed</option>
+		<option value='Slimey'>Slimey</option>
+		<option value='Pickled'>Pickled</option>
+		<option value='Rare'>Rare</option>
+		<option value='Creepy'>Creepy</option>
+		<option value='Blazed'>Blazed</option>
+		<option value='Nicholas Cage(NOT THE BEES)'>Nicholas Cage(NOT THE BEES)</option>
+		</select>");
+?>

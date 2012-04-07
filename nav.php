@@ -1,0 +1,9 @@
+<li><a href="/"><img src = "/images/newsico.png" alt = ""> News</a></li>
+<li><a href="/extra/search"><img src = "/images/searchico.png" alt = ""> Search</a></li>
+<li><a href="/extra/shops"><img src = "/images/shopico.png" alt = ""> Shops</a></li>
+<li><a href="/extra/clubs"><img src = "/images/clubsico.png" alt = ""> Clubs</a></li>
+<li><a href="/extra/clubs"><img src = "/images/dramaico.png" alt = ""> RolePlay</a></li>
+<li><a href="/extra/clubs"><img src = "/images/paletteico.png" alt = ""> Draw</a></li>
+<li><a href="/extra/chat"><img src = "/images/forumsico.png" alt = ""> Chat</a></li>
+<li><a href="/extra/clubs"><img src = "/images/radioico.png" alt = ""> DRadio</a></li>  
+<li><a href="/extra/donate"><img src = "/images/starico.png" alt = ""> Donate</a></li>

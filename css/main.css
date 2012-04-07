@@ -1,0 +1,367 @@
+body{
+	background-color: #bea489;
+	background-image: url(/images/background.png);
+	background-attachment:fixed;
+	background-repeat: repeat;
+	color: #513727;
+	font-family: Ubuntu, Arial, sans-serif;
+}
+img
+{
+	border: 0px;
+}
+a {
+	color: #6d4a3c;
+}
+#container
+{
+	margin: 0px auto;
+	width: 100%;
+}
+#headerContainer
+{
+	float: left;
+	width: 100%;
+        margin-top: 2px;
+	background: #f1e3d1;
+
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #f1e3d1));
+	background-image: -moz-linear-gradient(top, #ffffff, #f1e3d1);
+
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+#headerContainer h1 
+{
+	margin: 0px;
+	font-size: 50px;
+}
+
+#header
+{
+	clear: left;
+	float: left;
+	width: 60%;
+	margin-left: 20px;
+	padding: 7px 7px 7px 7px;
+	display: inline;
+}
+#login
+{
+	float: right;
+	width:225px;
+	margin-right: 20px;
+	display: inline;
+}
+#navigation
+{
+	float: left;
+	width: 100%;
+        margin-top: 3px;
+	background: #513727;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+#navigation ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 2px solid #c9a393;
+}
+
+#navigation li:first-child a:hover
+{
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background: #cdb31d;
+}
+
+#navigation li a:hover { background: #cdb31d; }
+#navigation img { float:left; margin-right: 5px; }
+
+#content-container
+{
+	float: left;
+	width: 100%;
+        margin-top: 3px;
+	background: #f1e3d1;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+#content
+{
+	clear: left;
+	float: left;
+	width: 76%;
+	display: inline;
+}
+
+#content h2 { margin: 0px;}
+
+.newArt
+{
+	background: #ffffff;
+	float: center;
+	text-align: left;
+	padding: 5px;
+	margin: 9px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+.update
+{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	text-align: left;
+	padding: 5px;
+	margin: 5px;
+	border: solid 2px #d8bbb1;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+#artContainer
+{
+	position: relative;
+	text-align: center;
+	padding: 0px;
+	overflow: hidden;
+}
+#scrollable{
+	position: relative;
+	border: solid 2px #d8bbb1;
+	padding: 3px 3px 3px 3px;
+	height: 200px;
+	overflow: auto;
+	white-space: normal;
+}
+#bordered{
+	border-left: solid 2px #d8bbb1;
+	border-bottom: solid 2px #d8bbb1;
+	border-right: solid 2px #d8bbb1;
+	padding: 3px 10px 3px 10px;
+}
+.zitem {
+	width: 135px;
+	height: 110px;	
+	border: 1px solid #b4b4b4;	
+	margin: 7px;
+	
+	/* required to hide the image after resized */
+	overflow:hidden;
+	
+	/* for child absolute position */
+	position:relative;
+	top: 0px;
+	
+	/* display div in line */
+	float:left;
+
+	/* Shaddow */
+	-moz-box-shadow: 3px 3px 4px #bebebe;
+	-webkit-box-shadow: 3px 3px 4px #bebebe;
+	box-shadow: 3px 3px 4px #bebebe;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#bebebe')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#bebebe');
+
+}
+.zitem .caption {
+	width:135px;
+	height:auto;
+	background: #d8bbb1;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+		
+	/* fix it at the bottom */
+	position:absolute;
+	bottom:-1px;
+	left:0px;
+
+	/* hide it by default */
+	display:none;
+
+	/* opacity setting */
+	filter:alpha(opacity=70);    /* ie  */
+	-moz-opacity:0.7;    /* old mozilla browser like netscape  */
+	-khtml-opacity: 0.7;    /* for really really old safari */  
+	opacity: 0.7;    /* css standard, currently it works in most modern browsers like firefox,  */
+
+}
+.zitem .caption a {
+	text-decoration:none;
+	color:#6d4a3c;
+	font-size:12px;	
+	
+	/* add spacing and make the whole row clickable*/
+	padding:5px;
+	display:block;
+}
+.zitem img {
+	position: absolute;
+	left:0px;
+} 
+.overlay{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+#comments
+{
+	text-align: left;
+	clear: left;
+	color: #6d4a3c;
+	width: 99%;
+	text-align: center;
+	border-top: solid 3px #c9a393;
+}
+
+.comment
+{
+	text-align: left;
+	border: solid 2px #d8bbb1;
+	padding: 3px;
+	margin: 2px;
+	min-height: 85px;
+	height: auto !important;
+	height: 85px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+.comment p{
+	margin-left: 90px;
+}
+.commentArea{
+	float:left;
+	margin:0 1% 0 1%;
+	background: #FFFFFF;
+	width: 80%;
+	height: 200px;
+}
+.commentImage {
+	max-width:800px;
+	max-height:1000px;
+}
+
+.emotes{
+	float: left;
+	text-align: left;
+	border: solid 1px #d8bbb1;
+	margin:0 1% 0 1%; 
+	background: #FFFFFF;
+	width: 15%;
+	height: 200px;
+	overflow: auto;
+}
+.usericon {
+	float: left;
+	margin: 5px 0px 0px 5px;
+	border: none;
+	width: 75px;
+	height: 75px;
+}
+.button
+{
+	float: right;
+	padding: 3px;
+	margin-right: 2px;
+	display: inline;
+	border: 2px solid #d8bbb1;
+	text-align: left;
+	height: 25px;
+	cursor: pointer;
+	background: #efe2de;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+.button img {border: 0px;}
+.topRight
+{
+	text-align: left;
+	padding: 5px;
+	margin: 1px;
+	font-size: 10px;
+	border: solid 1px;
+}
+.topRightContainer
+{
+	float: right;
+	text-align: left;
+	padding: 3px;
+	font-size: 10px;
+	margin: 0px 0px 5px 5px;
+	border: solid 1px;	
+}
+
+#description img {
+	margin-top:-3;
+	margin-right:0;
+	padding:0;
+}
+
+#aside
+{
+	position: relative;
+	clear: center;
+	float: left;
+	width: 24%;
+	display: inline;
+}
+
+#aside h3 { margin: 0px; }
+
+#ads
+{
+	position: relative;
+	clear: left;
+	color: #6d4a3c;
+	text-align: center;
+	padding: 20px;
+}
+
+#footer
+{
+	position: relative;
+	clear: left;
+	background: #513727;
+	color: #ffffff;
+	text-align: right;
+	padding: 20px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+#footer a{color: #ffffff;}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
